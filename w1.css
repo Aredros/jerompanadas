@@ -1,0 +1,69 @@
+*{margin: 0;
+    padding: 0;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+/*FONTS*/
+@font-face {
+    font-family: 'cherif'; /*a name to be used later*/
+    src: url('fonts/cherif.otf') format("opentype");
+}
+@font-face {
+    font-family: 'texas'; /*a name to be used later*/
+    src: url('fonts/texas.otf') format("opentype");
+}
+@font-face {
+    font-family: 'west'; /*a name to be used later*/
+    src: url('sourceserifpro-regular.ttf') format("opentype");
+}
+
+.bod { background-image: url("img/back.jpg");}
+
+.logo {
+    overflow: hidden;
+    height: 260px;
+}
+
+
+/* For mobile phones: */
+@media only screen and (min-width: 600px) {
+    .titulo {padding-top: 7%;}
+    .viejo { font-size: 55px;
+                 font-family: west;}
+    .logo { overflow: hidden;
+        height: 340px; }
+    .neo {display: none;}
+    .panel {padding: 40px 0;
+        text-align: center;}
+    .gustos h2 {font-size: 40px;
+        font-family: west;}
+} 
+@media only screen and (max-width: 600px) {
+    .neo {display: none;}
+    /*.panel {;}*/
+    .gustos h2 {font-size: 25px;
+                font-family: cherif;}
+}
+
+.titulo {
+    text-align: center;
+}
+
+.neo {
+    font-size: 35px;
+    font-family: CreatorCreditsBB;
+}
+
+/* GUSTOS */
+
+.panel {
+    text-align: center;
+}
+
+
+/* COMIDA */
+
+.te1, .fe11 {background-color: #51789b;}
